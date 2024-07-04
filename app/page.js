@@ -1,13 +1,12 @@
 import Link from "next/link" // <a>href</a>와 비슷한놈
+import Image from 'next/image'
+import 이미지 from '/public/test1.png'
 
 export default function Home() {
   let name = 'park'
   return ( //1. return 안에는 1개의 <태그>만이 존재해야 함
     <div>
-      <div className="navbar">
-        <Link href="/">홈</Link>
-        <Link href="/list">List</Link>
-      </div>
+      <Image src={이미지} alt="테스트 1" width="500" height="300"/>
       <h4 className="title">애플후레시</h4>
       <p className="title-sub">by dev {name}</p>
     </div>
