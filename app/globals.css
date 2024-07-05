@@ -39,3 +39,8 @@ body {
   border-bottom: 1px solid grey;
   line-height: 0px;
 } 
+
+.food-img {
+  width:100%;
+  height: auto;
+}
